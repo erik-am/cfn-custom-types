@@ -1,0 +1,19 @@
+{
+  "name": "cfn-dns-record",
+  "version": "1.0.0",
+  "author": "",
+  "license": "Unlicensed",
+  "dependencies": {
+    "cfn-lambda": "4.0.0",
+    "lodash.union": "^4.6.0"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0",
+    "prettier": "^1.18.2"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "deploy": "node ./node_modules/cfn-lambda/deploy.js --regions eu-west-1 --logs"
+  }
+}
